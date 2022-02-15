@@ -29,6 +29,20 @@ body {
   text-align: center;
 }
 
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+ float: left;
+ width: 12.5%;
+ padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+ content: "";
+ clear: both;
+ display: table;
+}
+
 input, select, button {font-family: Georgia, serif; font-size: 14px;}
 
 input[type="radio"] {
@@ -70,6 +84,7 @@ button {
   padding-right: 5px;
   height: 29px;
   min-width: 70px;
+  display: inline-block;
 }
 button:active {
   border-left: 1px solid #c9c9c9;
@@ -106,7 +121,7 @@ button[disabled] {
   margin-bottom: 1em;
 }
 
-#instructions, #instructions1 #instructions2, #instructions3, #finished {
+#instructions, #instructions1 #instructions2, #instructions3, #finished #stage-content{
   text-align: center;
 }
 
@@ -129,10 +144,19 @@ button[disabled] {
 
 .block-text {
     width: 500px;
-    text-align: justify;
+    text-align: left;
     margin: 0 auto;
     margin-bottom: 1em;
-    font-size: 15px;
+    font-size: 14pt;
+}
+
+.block-q {
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    font-size: 16pt;
+    font-weight: bold;
 }
 
 #legal {
