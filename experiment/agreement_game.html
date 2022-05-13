@@ -62,7 +62,11 @@
 
     <!--Instruction text-->
 
-    <p class="block-text">This is Alex and Sam.  They have been friends for a long time, but do not always agree on everything.  You will see a series of scenarios along with beliefs Alex and Sam have about the scenarios.  Then, you will be asked a question about whether or not they disagree.  Click NEXT to see a sample scenario.
+    <p class="block-text">This is Alex and Sam.  They have been friends for a long time, but do not always agree on everything.
+      You will see a series of scenarios along with beliefs Alex and Sam have about the scenarios.
+      In all of these scenarios, Sam and Alex are not having a conversation with each other, they are simply thinking to themselves.
+      In light of the scenario, you will be asked a question about whether or not they disagree.  
+      Click NEXT to see a sample scenario.
     </p>
 
     <div class="row">
@@ -70,10 +74,10 @@
       <div class="column"></div>
       <div class="column"></div>
       <div class="column">
-        <img src="images/bob.jpg" width="100%">
+        <img src="images/alex.jpg" width="100%">
       </div>
       <div class="column">
-        <img src="images/bob.jpg" width="100%">
+        <img src="images/sam.jpg" width="100%">
       </div>
       <div class="column"></div>
       <div class="column"></div>
@@ -97,10 +101,10 @@
     <p class="block-text">Sam and Alex are playing a card game with Brittany.
     </p>
 
-    <p class="block-text">Alex thinks: Brittany has the ten of hearts in her hand.
+    <p class="block-text">Alex thinks that Brittany has the ten of hearts in her hand.
     </p>
 
-    <p class="block-text">Sam thinks: Brittany does not have the ten of hearts in her hand.
+    <p class="block-text">Sam thinks that Brittany does not have the ten of hearts in her hand.
     </p>
 
     <br>
@@ -108,10 +112,51 @@
     <p class="block-q"> Do Alex and Sam disagree?
     </p>
 
-    <button type="button" onclick="this.blur(); experiment.next()">YES</button>
-    <button type="button" onclick="this.blur(); experiment.next()">NO</button>
+    <button type="button" onclick="this.blur(); showSlide('instructions4a')">YES</button>
+    <button type="button" onclick="this.blur(); showSlide('instructions4b')">NO</button>
 
 </div>
+
+<div class="slide" id="instructions4a">
+
+    <!--Instruction text-->
+    <p class="block-text">Correct! Alex and Sam disagree on whether or not Brittany has the ten of hearts.
+    </p>
+
+    <p class="block-text">Click NEXT below to begin the actual experiment.
+    </p>
+
+    <br>
+
+    <table align = "center" class="judgements">
+        <tr> <td colspan="2" align="center">
+            <button type="button" onclick="this.blur(); experiment.next()">NEXT</button>
+            </td>
+        </tr>
+    </table>
+
+</div>
+
+<div class="slide" id="instructions4b">
+
+    <!--Instruction text-->
+    <p class="block-text">Incorrect! Alex and Sam actually do disagree on whether or not Brittany has the ten of hearts.
+    </p>
+
+    <p class="block-text">Click NEXT below to begin the actual experiment.
+    </p>
+
+    <br>
+
+    <table align = "center" class="judgements">
+        <tr> <td colspan="2" align="center">
+            <button type="button" onclick="this.blur(); experiment.next()">NEXT</button>
+            </td>
+        </tr>
+    </table>
+
+</div>
+
 
 <!-- Progress Bar -->
 
