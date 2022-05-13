@@ -1,6 +1,3 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://proliferate.alps.science/static/js/proliferate.js" type="text/javascript"></script>
-
 // ############################## Helper functions ##############################
 // Shows slides. We're using jQuery here - the **$** is the jQuery selector function, which takes as input either a DOM element or a CSS selector string.
 function showSlide(id) {
