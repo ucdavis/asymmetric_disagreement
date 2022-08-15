@@ -658,7 +658,7 @@ var experiment = {
 
       this.trial_data.elapsed_ms = elapsed;
       this.trial_data.response = 1;
-      experiment.data.trials.push(trial_data);
+      experiment.data.trials.push(this.trial_data);
 
       $('#stage-content').hide();
       experiment.next();
@@ -667,10 +667,10 @@ var experiment = {
 // LOG NO FUNCTION: the function that records the no responses
     log_no_response: function() {
       var elapsed = Date.now() - experiment.start_ms;
-      
+
       this.trial_data.elapsed_ms = elapsed;
       this.trial_data.response = 0;
-      experiment.data.trials.push(trial_data);
+      experiment.data.trials.push(this.trial_data);
 
       $('#stage-content').hide();
       experiment.next();
