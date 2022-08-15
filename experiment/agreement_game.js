@@ -633,15 +633,10 @@ var experiment = {
         age: [],              // age
         language: [],         // what is the native language of the participant
         logical_training: [], // what is the participant's experience with formal logic
-        trial_type: [],       // T-1 ... T-6
-        context_type: [],     // C-1 ... C-20
-        alternation: [],      //A or S
-        measurement_type: [], // Asym_A, Asym_S, Sym
-        response: [],         // Yes/No
+        trials: [],           // array to store trial responses
         aim: [],              // participant's comments on the aim of the study
         comments: [],          // participant's general comments
 
-        elapsed_ms: [],       // time taken to provide an answer
 
         user_agent: [],
         window_width: [],
@@ -654,15 +649,16 @@ var experiment = {
 // END FUNCTION: The function to call when the experiment has ended
     end: function() {
       showSlide("finished");
-      proliferate.submit(exp.data);
+      proliferate.submit(experiment.data);
     },
 
 // LOG YES FUNCTION: the function that records the yes responses
     log_yes_response: function() {
       var elapsed = Date.now() - experiment.start_ms;
 
-      experiment.data.response.push(1);
-      experiment.data.elapsed_ms.push(elapsed);
+      this.trial_data.elapsed_ms = elapsed;
+      this.trial_data.response = 1;
+      experiment.data.trials.push(trial_data);
 
       $('#stage-content').hide();
       experiment.next();
@@ -671,9 +667,10 @@ var experiment = {
 // LOG NO FUNCTION: the function that records the no responses
     log_no_response: function() {
       var elapsed = Date.now() - experiment.start_ms;
-
-      experiment.data.response.push(0);
-      experiment.data.elapsed_ms.push(elapsed);
+      
+      this.trial_data.elapsed_ms = elapsed;
+      this.trial_data.response = 0;
+      experiment.data.trials.push(trial_data);
 
       $('#stage-content').hide();
       experiment.next();
@@ -712,11 +709,13 @@ var experiment = {
 
           // push all relevant variables into data object
           types = current_trial[0].split('_');
-          experiment.data.trial_type.push(types[0]);
-          experiment.data.context_type.push(types[1]);
-          experiment.data.alternation.push(types[2]);
-          experiment.data.measurement_type.push(m)
-          experiment.data.window_height.push($(window).height());
+          this.trial_data = {
+            "trial_type": types[0],
+            "context_type": types[1],
+            "alternation": types[2],
+            "measurement_type": m,
+            "window_height": $(window).height()
+          }
 
           showSlide("stage");
       }
@@ -728,8 +727,9 @@ var experiment = {
     },
 
     // submitcomments function
-    submit_comments: function() {
-        experiment.data.age.push(document.getElementById("age").value);
+    submit_comments: function(f, event) {
+        event.preventDefault();
+            experiment.data.age.push(document.getElementById("age").value);
         experiment.data.gender.push(document.getElementById("gender").value);
         experiment.data.logical_training.push(document.getElementById("education").value);
         experiment.data.aim.push(document.getElementById("expthoughts").value);
