@@ -648,7 +648,7 @@ var experiment = {
 
 // END FUNCTION: The function to call when the experiment has ended
     end: function() {
-      showSlide("finished");
+      showSlide("thanks");
       proliferate.submit(experiment.data);
     },
 
