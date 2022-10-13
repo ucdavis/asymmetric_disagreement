@@ -142,6 +142,14 @@ button[disabled] {
   font-size: 15px;
 }
 
+.prompt {
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    font-size: 10pt;
+}
+
 .block-text {
     width: 500px;
     text-align: left;
@@ -149,6 +157,10 @@ button[disabled] {
     margin-bottom: 1em;
     font-size: 14pt;
 }
+
+.firstClass, .secondClass {
+  display: inline;
+  font-size: 14pt}
 
 .block-q {
     width: 500px;

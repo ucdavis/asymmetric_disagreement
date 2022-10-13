@@ -1,4 +1,4 @@
-participant 16
+participant 16 - Type 4
   trial  asym_a  asym_s  sym  total
 0    T1       0       0    0      2
 1    T2       0       0    2      2
@@ -8,7 +8,7 @@ participant 16
 5    T6       0       0    0      4
 6   Tot       0       0   20     20
 
-participant 11
+participant 11 - Type 2
   trial  asym_a  asym_s  sym  total
 0    T1       0       0    0      2
 1    T2       1       1    0      2
@@ -18,7 +18,7 @@ participant 11
 5    T6       2       2    0      4
 6   Tot      10      10    0     20
 
-participant 19
+participant 19 - Type 2
   trial  asym_a  asym_s  sym  total
 0    T1       0       0    0      2
 1    T2       1       1    0      2
@@ -28,7 +28,7 @@ participant 19
 5    T6       1       2    0      4
 6   Tot      10      10    0     20
 
-participant 4
+participant 4 - Type 1
   trial  asym_a  asym_s  sym  total
 0    T1       1       1    0      2
 1    T2       1       1    0      2
@@ -38,7 +38,7 @@ participant 4
 5    T6       2       2    0      4
 6   Tot      10      10    0     20
 
-participant 24
+participant 24 - Type 2
   trial  asym_a  asym_s  sym  total
 0    T1       0       0    0      2
 1    T2       1       1    0      2
@@ -48,7 +48,7 @@ participant 24
 5    T6       2       2    0      4
 6   Tot      10      10    0     20
 
-participant 25
+participant 25 - Type 2
   trial  asym_a  asym_s  sym  total
 0    T1       0       0    0      2
 1    T2       0       0    2      2
@@ -57,4 +57,3 @@ participant 25
 4    T5       0       0    4      4
 5    T6       0       0    4      4
 6   Tot       0       0   20     20
-
