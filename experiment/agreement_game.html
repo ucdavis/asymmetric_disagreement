@@ -47,7 +47,10 @@
 
     <!--Instruction text-->
 
-    <p class="block-text">Thank you so much for participating in this study.  You will be answering a series of questions about whether or not two individuals disagree with one another.  Click NEXT to meet them.
+    <p class="block-text">Thank you so much for participating in this study.
+      You will be answering a series of questions about whether or not two individuals disagree with one another.
+      These individuals have never met or spoken with one another.
+      Click NEXT to meet them.
     </p>
 
     <table align = "center" class="judgements">
@@ -65,9 +68,11 @@
 
     <!--Instruction text-->
 
-    <p class="block-text">This is Alex and Sam.  They have been friends for a long time, but do not always agree on everything.
-      You will see a series of scenarios along with beliefs Alex and Sam have about the scenarios.
-      In all of these scenarios, Sam and Alex are <b>not having a conversation with each other</b>, they are simply thinking to themselves.
+    <p class="block-text">This is Alex and Sam.
+      Alex and Sam have never met before, but they inhabit the same world,
+      and sometimes they interact with the same people and things.
+      We want to compare their thoughts and beliefs.
+      You will see a series of scenarios along with beliefs Alex and Sam have in  those scenarios.
       In light of the scenario, you will be asked a question about whether or not they disagree.
       Click NEXT to see a sample scenario.
     </p>
@@ -101,9 +106,6 @@
 <div class="slide" id="instructions3">
 
     <!--Instruction text-->
-    <p class="prompt">Sam and Alex are <b>not having a conversation with each other</b>, they are simply thinking to themselves.
-    </p>
-
     <p class="block-text">Sam and Alex are waiting for a train to arrive.
     </p>
 
@@ -177,9 +179,6 @@
 
         <div id="stage-content" class="center">
 
-          <p class="prompt">Sam and Alex are <b>not having a conversation with each other</b>, they are simply thinking to themselves.
-          </p>
-
           <p class="block-text" id="context"></p>
 
           <p class="firstClass" id="alex"></p>
@@ -250,6 +249,26 @@
    <div class="question">
      <p><b>What in your opinion was the goal of the experiment?</b></p>
      <textarea type="text" id="expthoughts" style="width:100%" name="expaim"></textarea>
+   </div>
+
+   <div class="question">
+     <p><b>Do people need to communicate in order to disagree with one another?</b></p>
+     <textarea type="textarea" id="debrief1" style="width:100%" name="expgen"></textarea>
+   </div>
+
+   <div class="question">
+     <p><b>Can people disagree with one another without communicating?</b></p>
+     <textarea type="textarea" id="debrief2" style="width:100%" name="expgen"></textarea>
+   </div>
+
+   <div class="question">
+     <p><b>Are people required to speak, write, or otherwise communicate in order to disagree with one another?</b></p>
+     <textarea type="textarea" id="debrief3" style="width:100%" name="expgen"></textarea>
+   </div>
+
+   <div class="question">
+     <p><b>Can we say that two people disagree with one another if they have never communicated?</b></p>
+     <textarea type="textarea" id="debrief4" style="width:100%" name="expgen"></textarea>
    </div>
 
    <div class="question">

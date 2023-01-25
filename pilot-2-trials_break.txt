@@ -1,0 +1,120 @@
+*participant 16 - Type 4
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       0       0    2      2
+2    T3       0       0    0      4
+3    T4       0       0    0      4
+4    T5       0       0    0      4
+5    T6       0       0    0      4
+6   Tot       0       0   20     20
+
+*participant 11 - Type 2
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       2       2    0      4
+4    T5       1       2    0      4
+5    T6       2       2    0      4
+6   Tot      10      10    0     20
+
+*participant 19 - Type 2
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       1       1    0      4
+3    T4       2       2    0      4
+4    T5       2       2    0      4
+5    T6       1       2    0      4
+6   Tot      10      10    0     20
+
+*participant 4 - Type 1
+  trial  asym_a  asym_s  sym  total
+0    T1       1       1    0      2
+1    T2       1       1    0      2
+2    T3       2       2    0      4
+3    T4       2       2    0      4
+4    T5       2       2    0      4
+5    T6       2       2    0      4
+6   Tot      10      10    0     20
+
+participant 40 - Type 4
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       0       1    0      4
+4    T5       2       2    0      4
+5    T6       1       1    0      4
+6   Tot      10      10    0     20
+
+participant 50 - Type 1
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       0       0    2      2
+2    T3       0       0    1      4
+3    T4       0       0    4      4
+4    T5       0       0    4      4
+5    T6       0       0    4      4
+6   Tot       0       0   20     20
+
+participant 37 - Type 4
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       0       0    2      2
+2    T3       0       0    0      4
+3    T4       0       0    4      4
+4    T5       0       0    4      4
+5    T6       0       0    1      4
+6   Tot       0       0   20     20
+
+participant 42 - Type 2
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       0       0    2      2
+2    T3       0       0    0      4
+3    T4       0       0    2      4
+4    T5       0       0    4      4
+5    T6       0       0    4      4
+6   Tot       0       0   20     20
+
+*participant 24 - Type 2
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       0       0    0      4
+4    T5       0       0    0      4
+5    T6       2       2    0      4
+6   Tot      10      10    0     20
+
+*participant 25 - Type 2
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       0       0    2      2
+2    T3       0       0    0      4
+3    T4       0       0    4      4
+4    T5       0       0    4      4
+5    T6       0       0    4      4
+6   Tot       0       0   20     20
+
+participant 29 - Type 4
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       0       0    0      2
+2    T3       0       0    0      4
+3    T4       0       0    0      4
+4    T5       0       0    0      4
+5    T6       0       0    0      4
+6   Tot      10      10    0     20
+
+participant 46 - Type 2
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       1       2    0      4
+4    T5       2       2    0      4
+5    T6       2       2    0      4
+6   Tot      10      10    0     20
+
