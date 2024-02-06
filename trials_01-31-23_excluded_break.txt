@@ -1,0 +1,463 @@
+participant 58
+exclude - False
+type 4
+asym_type Top Mid
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       2       1    0      4
+3    T4       2       1    0      4
+4    T5       2       2    0      4
+5    T6       1       0    0      4
+6   Tot      10      10    0     20
+
+participant 59
+exclude - False
+type 2
+asym_type N/A
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       0       0    2      2
+2    T3       0       0    0      4
+3    T4       0       0    4      4
+4    T5       0       0    4      4
+5    T6       0       0    4      4
+6   Tot       0       0   20     20
+
+participant 60
+exclude - False
+type 2
+asym_type Top Mid
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       2       1    0      4
+4    T5       1       1    0      4
+5    T6       2       2    0      4
+6   Tot      10      10    0     20
+
+participant 61
+exclude - False
+type 2
+asym_type Mid Mid
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       2       2    0      4
+4    T5       2       2    0      4
+5    T6       2       2    0      4
+6   Tot      10      10    0     20
+
+participant 62
+exclude - False
+type 2
+asym_type Bot Mid
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       1       2    0      4
+4    T5       2       2    0      4
+5    T6       2       2    0      4
+6   Tot      10      10    0     20
+
+participant 64
+exclude - False
+type 4
+asym_type Mid Left
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       2       2    0      4
+4    T5       2       1    0      4
+5    T6       2       1    0      4
+6   Tot      10      10    0     20
+
+participant 65
+exclude - False
+type 4
+asym_type Mid Mid
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       2       2    0      4
+4    T5       2       2    0      4
+5    T6       0       2    0      4
+6   Tot      10      10    0     20
+
+participant 66
+exclude - False
+type 2
+asym_type Mid Mid
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       2       2    0      4
+4    T5       2       2    0      4
+5    T6       2       2    0      4
+6   Tot      10      10    0     20
+
+participant 67
+exclude - False
+type 2
+asym_type Mid Mid
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       2       2    0      4
+4    T5       2       2    0      4
+5    T6       2       2    0      4
+6   Tot      10      10    0     20
+
+participant 68
+exclude - False
+type 3
+asym_type N/A
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       0       0    2      2
+2    T3       0       0    4      4
+3    T4       0       0    4      4
+4    T5       0       0    4      4
+5    T6       0       0    0      4
+6   Tot       0       0   20     20
+
+participant 69
+exclude - False
+type 2
+asym_type Bot Mid
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       1       2    0      4
+4    T5       2       2    0      4
+5    T6       2       2    0      4
+6   Tot      10      10    0     20
+
+participant 71
+exclude - False
+type 2
+asym_type N/A
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       0       0    2      2
+2    T3       0       0    0      4
+3    T4       0       0    3      4
+4    T5       0       0    4      4
+5    T6       0       0    4      4
+6   Tot       0       0   20     20
+
+participant 72
+exclude - False
+type 2
+asym_type Mid Right
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       2       2    0      4
+4    T5       1       2    0      4
+5    T6       2       2    0      4
+6   Tot      10      10    0     20
+
+participant 75
+exclude - False
+type 4
+asym_type N/A
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       0       0    2      2
+2    T3       0       0    0      4
+3    T4       0       0    4      4
+4    T5       0       0    3      4
+5    T6       0       0    0      4
+6   Tot       0       0   20     20
+
+participant 76
+exclude - False
+type 4
+asym_type Mid Mid
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       2       2    0      4
+4    T5       2       2    0      4
+5    T6       2       1    0      4
+6   Tot      10      10    0     20
+
+participant 77
+exclude - False
+type 2
+asym_type Mid Mid
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       2       2    0      4
+4    T5       2       2    0      4
+5    T6       2       2    0      4
+6   Tot      10      10    0     20
+
+participant 78
+exclude - False
+type 4
+asym_type Bot Mid
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       1       2    0      4
+4    T5       1       1    0      4
+5    T6       2       1    0      4
+6   Tot      10      10    0     20
+
+participant 79
+exclude - False
+type 2
+asym_type N/A
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       0       0    2      2
+2    T3       0       0    0      4
+3    T4       0       0    4      4
+4    T5       0       0    4      4
+5    T6       0       0    4      4
+6   Tot       0       0   20     20
+
+participant 80
+exclude - False
+type 3
+asym_type Mid Mid
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       2       2    0      4
+3    T4       2       2    0      4
+4    T5       2       2    0      4
+5    T6       0       0    0      4
+6   Tot      10      10    0     20
+
+participant 81
+exclude - False
+type 4
+asym_type Bot Mid
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       1       2    0      4
+4    T5       2       2    0      4
+5    T6       2       1    0      4
+6   Tot      10      10    0     20
+
+participant 83
+exclude - False
+type 2
+asym_type Mid Mid
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       2       2    0      4
+4    T5       2       2    0      4
+5    T6       2       2    0      4
+6   Tot      10      10    0     20
+
+participant 84
+exclude - False
+type 2
+asym_type N/A
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       0       0    2      2
+2    T3       0       0    0      4
+3    T4       0       0    3      4
+4    T5       0       0    4      4
+5    T6       0       0    4      4
+6   Tot       0       0   20     20
+
+participant 85
+exclude - False
+type 4
+asym_type Mid Right
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       2       2    0      4
+4    T5       1       2    0      4
+5    T6       0       0    0      4
+6   Tot      10      10    0     20
+
+participant 87
+exclude - False
+type 2
+asym_type Mid Right
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       2       2    0      4
+4    T5       1       2    0      4
+5    T6       2       2    0      4
+6   Tot      10      10    0     20
+
+participant 88
+exclude - False
+type 2
+asym_type N/A
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       0       0    2      2
+2    T3       0       0    0      4
+3    T4       0       0    3      4
+4    T5       0       0    3      4
+5    T6       0       0    4      4
+6   Tot       0       0   20     20
+
+participant 89
+exclude - False
+type 4
+asym_type N/A
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       0       0    2      2
+2    T3       0       0    1      4
+3    T4       0       0    4      4
+4    T5       0       0    4      4
+5    T6       0       0    2      4
+6   Tot       0       0   20     20
+
+participant 90
+exclude - False
+type 2
+asym_type Bot Mid
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       1       2    0      4
+4    T5       2       2    0      4
+5    T6       2       2    0      4
+6   Tot      10      10    0     20
+
+participant 91
+exclude - False
+type 2
+asym_type Bot Left
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       1       0    0      4
+3    T4       1       2    0      4
+4    T5       2       1    0      4
+5    T6       2       2    0      4
+6   Tot      10      10    0     20
+
+participant 92
+exclude - False
+type 2
+asym_type N/A
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       0       0    2      2
+2    T3       0       0    0      4
+3    T4       0       0    4      4
+4    T5       0       0    4      4
+5    T6       0       0    4      4
+6   Tot       0       0   20     20
+
+participant 93
+exclude - False
+type 4
+asym_type Top Mid
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       2       1    0      4
+4    T5       2       2    0      4
+5    T6       1       1    0      4
+6   Tot      10      10    0     20
+
+participant 94
+exclude - False
+type 2
+asym_type Top Mid
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       2       1    0      4
+4    T5       2       2    0      4
+5    T6       2       2    0      4
+6   Tot      10      10    0     20
+
+participant 95
+exclude - False
+type 4
+asym_type Bot Mid
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       1       0    0      4
+3    T4       1       2    0      4
+4    T5       2       2    0      4
+5    T6       2       1    0      4
+6   Tot      10      10    0     20
+
+participant 96
+exclude - False
+type 2
+asym_type Mid Mid
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       1       1    0      2
+2    T3       0       0    0      4
+3    T4       2       2    0      4
+4    T5       2       2    0      4
+5    T6       2       2    0      4
+6   Tot      10      10    0     20
+
+participant 97
+exclude - False
+type 2
+asym_type N/A
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       0       0    2      2
+2    T3       0       0    0      4
+3    T4       0       0    4      4
+4    T5       0       0    4      4
+5    T6       0       0    4      4
+6   Tot       0       0   20     20
+
+participant 98
+exclude - False
+type 2
+asym_type N/A
+  trial  asym_a  asym_s  sym  total
+0    T1       0       0    0      2
+1    T2       0       0    2      2
+2    T3       0       0    3      4
+3    T4       0       0    4      4
+4    T5       0       0    4      4
+5    T6       0       0    4      4
+6   Tot       0       0   20     20
+
+type summary: [0, 22, 2, 11]
+asym_type summary: [0, 4, 0, 1, 9, 3, 1, 6, 0]
+asym_type_36 summary: [2, 1, 0, 4, 16, 1, 0, 0, 0]
+maxes: [0, 35, 2, 21, 26, 22]
+sym_maxes: [0, 11, 1, 8, 9, 8]
+asym_maxes: [0, 24, 1, 13, 17, 14]
+sym_totals: [0, 11, 1, 8, 9, 8]
+asym_totals: [0, 24, 1, 13, 17, 14]
