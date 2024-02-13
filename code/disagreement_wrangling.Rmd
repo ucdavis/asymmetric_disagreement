@@ -1,0 +1,64 @@
+---
+title: "Data Wrangling"
+author: "Masoud Jasbi"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+This top part ^ between three dashes --- and --- defines the title of this document, the author of it, the date, and defines what type of document Rmarkdown is going to create. Currently it is creating a pdf file but it can also create HTML (website) or Word reports. 
+
+We put R code inside triple ```{r } and ''' like what you see below. This R chunk of code below loads all the packages we need for data wrangling.
+
+```{r packages, include=FALSE}
+library(tidyverse) #this says load the package Tidyverse
+```
+
+# Loading and Inspecting the Data
+
+Here we first import the data collected on some platform (e.g. Qualtrics) into R and save it in a variable named `r raw_data`. 
+
+```{r loadRawData}
+
+raw_data <- read_csv("../data/rawdata_template_qualtrics.csv")
+```
+
+# Removing Useless Columns or Rows
+
+In the template data, we have a first row that repeats column names and a second row that has additional text we don't want to use. We are going to remove these two rows. We are going to also remove the following columns that we don't intend to use: StartDate, EndDate, Status, IPAddress, Progress, RecordedDate, RecipientLastName, RecipientFirstName, RecipientEmail, ExternalReference, LocationLatitude, LocationLongitude.
+
+```{r}
+removed_data <- 
+  raw_data[-c(1:2),] %>% #removing the first two rows
+  select(-StartDate, -EndDate, -Status, -IPAddress, -Progress, -RecordedDate, -RecipientLastName, -RecipientFirstName, -RecipientEmail, -ExternalReference, -LocationLatitude, -LocationLongitude) #removing colunns we don't need
+
+```
+
+# Exclusions
+
+Here we explain the exclusion criteria for this study. We first removed participants that did not finish the task. We also removed preview runs of the study that were not actual participants providing the data but rather researchers testing the study.
+
+```{r}
+excluded_data <-
+  removed_data %>%
+  filter(Finished==1) %>% # removing participants that did not finish the task
+# filter(DistributionChannel!="preview") %>% # removing trials that were preview trials
+  select(-Finished, -DistributionChannel)
+```
+
+You can add more exclusions here but you need to be very specific and justify each exclusion criterion.
+
+# Reshaping the data into Tidy Form
+
+```{r}
+tidy_data <-
+  excluded_data %>%
+  gather("question", "response", c(Q1:Q7))
+```
+
+# Saving the Tidy Data
+
+Here we save the data that is reading for ploting and statistical analyses.
+
+```{r}
+write_csv(tidy_data, "../data/tidydata_template.csv")
+```

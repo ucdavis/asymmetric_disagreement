@@ -1,0 +1,14 @@
+---
+title: "Template Statistical Analyses"
+author: "Masoud Jasbi"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r packages, include=FALSE}
+library(tidyverse)
+```
+
+# Template Statistical Analyses
+
+Here you should run and report ALL statistical analyses you have planned to perform. If you later decided to do an additional analysis also be explicit about which analyses came after you looked at the data or ran other analyses.

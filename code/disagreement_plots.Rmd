@@ -1,0 +1,28 @@
+---
+title: "Template Plots"
+author: "Masoud Jasbi"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r packages, include=FALSE}
+library(tidyverse)
+library(ggplot2)
+```
+
+# Load Tidy Data
+
+```{r loadTidyData}
+tidy_data <- read_csv("../data/tidydata_template.csv")
+```
+
+# Exploratory Plots
+
+```{r}
+ggplot(tidy_data, aes(factor(question), response)) + 
+  geom_dotplot(binaxis = "y", stackdir = "center") +
+  theme_classic()
+```
+
+
+
